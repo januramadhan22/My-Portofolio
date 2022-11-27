@@ -12,7 +12,6 @@ function Home() {
           data-aos="zoom-in"
           data-aos-easing="ease-in"
           data-aos-duration="700"
-          data-aos-offset="200"
           className="text-5xl font-semibold text-white tracking-widest"
         >
           Hello
@@ -23,7 +22,6 @@ function Home() {
             data-aos-easing="ease-in"
             data-aos-delay="500"
             data-aos-duration="700"
-            data-aos-offset="200"
             className="text-5xl tracking-widest"
           >
             I'm
@@ -33,7 +31,6 @@ function Home() {
             data-aos-easing="ease-in"
             data-aos-delay="500"
             data-aos-duration="700"
-            data-aos-offset="200"
             className="text-7xl font-bold tracking-widest"
           >
             Janu
@@ -45,7 +42,6 @@ function Home() {
             data-aos-easing="ease-in"
             data-aos-delay="1000"
             data-aos-duration="800"
-            data-aos-offset="200"
             href="https://www.linkedin.com/in/abby-janu-ramadhan-3025b116a/"
             className="opacity-70 hover:opacity-100"
           >
@@ -56,7 +52,6 @@ function Home() {
             data-aos-easing="ease-in"
             data-aos-delay="1100"
             data-aos-duration="800"
-            data-aos-offset="200"
             href="https://www.twitter.com/janu_ramadhan22/"
             className="opacity-70 hover:opacity-100"
           >
@@ -67,7 +62,6 @@ function Home() {
             data-aos-easing="ease-in"
             data-aos-delay="1200"
             data-aos-duration="800"
-            data-aos-offset="200"
             href="https://www.instagram.com/januramadhan_"
             className="opacity-70 hover:opacity-100"
           >
@@ -78,7 +72,6 @@ function Home() {
             data-aos-easing="ease-in"
             data-aos-delay="1300"
             data-aos-duration="800"
-            data-aos-offset="200"
             href="https://github.com/januramadhan22"
             className="opacity-70 hover:opacity-100"
           >
