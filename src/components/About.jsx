@@ -5,7 +5,7 @@ function About() {
   return (
     <section
       id="about"
-      className="w-full h-screen bg-white flex justify-center items-center gap-6 transition-all ease-in"
+      className="w-full min-h-screen bg-white flex flex-col lg:flex-row justify-center items-center gap-6 transition-all ease-in"
     >
       <img
         data-aos="fade-right"
@@ -13,16 +13,18 @@ function About() {
         data-aos-duration="500"
         src={Profile}
         alt="Abby Janu Ramadhan"
-        className="w-1/4 rounded-md shadow-md"
+        className="w-2/3 md:w-2/5 lg:w-1/4 rounded-md shadow-md mt-20 lg:m-0"
       />
-      <div className="w-2/5 h-auto flex flex-col gap-4 text-justify text-black">
+      <div className="w-2/3 lg:w-2/5 h-auto flex flex-col gap-4 text-justify text-black">
         <div
           data-aos="fade-in"
           data-aos-easing="ease-in"
           data-aos-duration="500"
           id="desc"
         >
-          <h2 className="font-extrabold text-2xl">About Me</h2>
+          <h2 className="w-fit font-extrabold text-2xl border-b-2 border-gray-300 mb-2">
+            About Me
+          </h2>
           <p className="font-medium">
             Hello, i’m Abby Janu Ramadhan as a ameteur Illustrator and junior
             Frontend Engineer. I’m familiar with React JS, Javascript, HTML, CSS
@@ -33,7 +35,7 @@ function About() {
             <br /> Let's become a friend and drink a coffee together.
           </p>
         </div>
-        <div id="progress-bar" className="flex flex-col gap-2">
+        <div id="progress-bar" className="flex flex-col gap-2 mb-20 lg:m-0">
           <div
             data-aos="fade-in"
             data-aos-easing="ease-in"

@@ -1,5 +1,8 @@
 import React from "react";
 
+import { TiHome, TiUser } from "react-icons/ti";
+import { MdPhotoLibrary } from "react-icons/md";
+
 function Navbar() {
   return (
     <nav className="navbar">
@@ -22,24 +25,37 @@ function Navbar() {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-white"
           >
+            <p className="text-xl text-center py-2 border-b border-gray-500">
+              Januramadhan
+            </p>
+
             <li>
-              <a>Home</a>
+              <a href="#home" className="text-base">
+                <TiHome className="w-5 h-5" />
+                Home
+              </a>
             </li>
             <li>
-              <a>About</a>
+              <a href="#about" className="text-base">
+                <TiUser className="w-5 h-5" />
+                About
+              </a>
             </li>
             <li>
-              <a>Projects</a>
+              <a href="#projects" className="text-base">
+                <MdPhotoLibrary className="w-5 h-5" />
+                Projects
+              </a>
             </li>
           </ul>
         </div>
         <a
           href="#"
-          className="ml-5 md:ml-20 text-2xl font-bold text-white tracking-widest"
+          className="ml-5 md:ml-20 text-2xl font-bold text-white tracking-widest hidden md:block"
         >
-          J A N U R
+          Januramadhan
         </a>
       </div>
       <div className="navbar-end hidden md:flex">
