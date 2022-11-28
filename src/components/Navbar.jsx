@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="md:navbar-start justify-between">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost md:hidden">
@@ -37,25 +37,25 @@ function Navbar() {
         </div>
         <a
           href="#"
-          className="ml-5 md:ml-20 text-2xl font-bold text-black tracking-widest"
+          className="ml-5 md:ml-20 text-2xl font-bold text-white tracking-widest"
         >
           J A N U R
         </a>
       </div>
       <div className="navbar-end hidden md:flex">
-        <ul className="flex gap-14 mr-20 font-semibold">
+        <ul className="flex gap-14 mr-20 font-semibold text-white">
           <li>
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 }
 

@@ -5,7 +5,10 @@ import { FiInstagram, FiGithub } from "react-icons/fi";
 
 function Home() {
   return (
-    <div className="w-full h-screen bg-[url('../assets/bg-home.svg')] bg-cover bg-center">
+    <section
+      id="home"
+      className="w-full h-screen bg-[url('../assets/bg-home.svg')] bg-cover bg-center"
+    >
       <Navbar />
       <div className="w-full h-3/4 flex flex-col items-center justify-center gap-4 ">
         <p
@@ -79,7 +82,7 @@ function Home() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

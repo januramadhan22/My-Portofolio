@@ -3,9 +3,9 @@ import Profile from "../assets/profil.jpg";
 
 function About() {
   return (
-    <div
+    <section
       id="about"
-      className="w-full h-screen bg-white flex justify-center items-center gap-6"
+      className="w-full h-screen bg-white flex justify-center items-center gap-6 transition-all ease-in"
     >
       <img
         data-aos="fade-right"
@@ -126,7 +126,7 @@ function About() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
