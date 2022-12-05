@@ -18,3 +18,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#menubar {
+  position: relative;
+}
+
+#menubar::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  transition: width 0.2s ease-out;
+  background: #fff;
+}
+
+#menubar:hover::before {
+  width: 100%;
+}
