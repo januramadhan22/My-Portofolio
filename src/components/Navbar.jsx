@@ -52,6 +52,7 @@ function Navbar() {
           </ul>
         </div>
         <a
+          id="menubar"
           href="#"
           className="ml-5 md:ml-20 text-2xl font-bold text-white tracking-widest hidden md:block"
         >
@@ -61,13 +62,19 @@ function Navbar() {
       <div className="navbar-end hidden md:flex">
         <ul className="flex gap-14 mr-20 font-semibold text-white">
           <li>
-            <a href="#home">Home</a>
+            <a href="#home" id="menubar">
+              Home
+            </a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about" id="menubar">
+              About
+            </a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" id="menubar">
+              Projects
+            </a>
           </li>
         </ul>
       </div>
