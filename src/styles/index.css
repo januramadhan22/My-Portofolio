@@ -37,3 +37,37 @@ code {
 #menubar:hover::before {
   width: 100%;
 }
+
+#float-button {
+  transition: 0.3s ease;
+}
+
+.float-home-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-122px);
+  transition: 0.3s ease;
+}
+
+.float-about-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-84px);
+  transition: 0.3s ease;
+}
+
+.float-projects-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-46px);
+  transition: 0.3s ease;
+}
+
+.float-home-close,
+.float-about-close,
+.float-projects-close {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(0);
+  transition: 0.3s ease;
+}
