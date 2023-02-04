@@ -109,6 +109,25 @@ function Projects() {
                 </div>
               </div>
             </div>
+            <div className="w-full flex justify-center">
+              <div
+                data-aos="flip-right"
+                data-aos-easing="ease-in"
+                data-aos-delay="700"
+                data-aos-duration="500"
+                className="w-10/12 h-60 shadow-xl bg-[url('../assets/meramal.png')] bg-cover bg-center rounded-xl"
+              >
+                <div className="w-full h-full p-4 flex flex-col justify-end items-start bg-gradient-to-r from-gray-800 to-gray-800 opacity-70 rounded-xl">
+                  <a
+                    href="https://github.com/januramadhan22/weather-app-react"
+                    className="text-white font-bold text-xl"
+                  >
+                    Meramal Cuaca
+                  </a>
+                  <p className="text-gray-100">Wheater App</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
