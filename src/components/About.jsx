@@ -48,10 +48,10 @@ function About() {
               data-aos-easing="ease-in"
               data-aos-delay="700"
               data-aos-duration="700"
-              className="z-10 w-11/12 h-6 px-1 bg-black rounded-md flex items-center justify-between text-sm text-white"
+              className="z-10 w-9/12 h-6 px-1 bg-black rounded-md flex items-center justify-between text-sm text-white"
             >
               <p>HTML</p>
-              <p>90%</p>
+              <p>75%</p>
             </div>
           </div>
           <div
@@ -66,10 +66,10 @@ function About() {
               data-aos-easing="ease-in"
               data-aos-delay="1000"
               data-aos-duration="700"
-              className="z-10 w-11/12 h-6 px-1 bg-black rounded-md flex items-center justify-between text-sm text-white"
+              className="z-10 w-9/12 h-6 px-1 bg-black rounded-md flex items-center justify-between text-sm text-white"
             >
               <p>CSS</p>
-              <p>90%</p>
+              <p>75%</p>
             </div>
           </div>
           <div
